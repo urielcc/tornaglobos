@@ -1,0 +1,102 @@
+#table-week {
+    font-family: sans-serif;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+    table-layout: fixed;
+}
+#table-week thead tr th {
+    padding: 0.5em;
+    overflow: hidden;
+    text-align: center;
+}
+#table-week thead tr th:first-child {
+    border-radius: 3px 0 0 0;
+}
+#table-week thead tr th:last-child {
+    border-radius: 0 3px 0 0;
+}
+#table-week thead tr th .day {
+    display: block;
+    font-size: 1.8em;
+    border-radius: 50%;
+    width: 30px;
+    margin: 0 auto 5px;
+
+    line-height: 1.2;
+}
+#table-week tbody tr td .day.active {
+    border-radius: 50%;
+    background-color: #8950fc;
+    padding: 6px;
+    color: #fff;
+}
+#table-week thead tr th.active {
+    color: #A76FFF !important;
+}
+#table-week thead tr th .long {
+    font-weight: normal;
+}
+
+#table-week thead tr th .short {
+    display: none;
+}
+#table-week thead tr th i {
+    vertical-align: middle;
+    font-size: 1em;
+}
+
+
+#table-week tbody tr td {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    height: 35px;
+    cursor: pointer;
+}
+#table-week tbody tr td.hour {
+    font-size: 2em;
+    padding: 0;
+    border-collapse: separate;
+    min-width: 100px;
+    cursor: default;
+}
+#table-week tbody tr td.hour span {
+    display: block;
+}
+@media (max-width: 60em) {
+    #table-week thead tr th .long {
+        display: none;
+    }
+    #table-week thead tr th .short {
+        display: block;
+    }
+    #table-week tbody tr td.hour span {
+        transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+    }
+}
+@media (max-width: 27em) {
+    #table-week thead tr th {
+        font-size: 65%;
+    }
+    #table-week thead tr th .day {
+        display: block;
+        font-size: 1.2em;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        margin: 0 auto 5px;
+        padding: 5px;
+    }
+
+    #table-week tbody tr td.hour {
+        font-size: 1.7em;
+    }
+    #table-week tbody tr td.hour span {
+        transform: translateY(16px) rotate(270deg);
+        -webkit-transform: translateY(16px) rotate(270deg);
+        -moz-transform: translateY(16px) rotate(270deg);
+    }
+}

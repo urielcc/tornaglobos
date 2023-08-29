@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+body{
+ font-family: 'Poppins', sans-serif;
+ min-height: 100vh;
+
+}
+
+.main-body{
+	background-color: #b08ef8;
+	background-image: linear-gradient(to bottom right, #e647bb, #741abd);
+
+}
+
+.main-container{
+	background-image: url("../images/tutoriales/back-pattern.png");
+	background-size: 700px 700px;
+	background-repeat: repeat;
+}
+.display_box_hover, .display_box:hover
+{
+  background:white;
+  color:#FFFFFF;
+  transition: all .2s ease-in-out;
+  transform: scale(0.9);
+}
+
+.tutoriales-title{
+	color: #ffffff;
+	text-align: center;
+	padding: 2em 0px 1em 0px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+
+}
+
+.tutorial-box{
+	max-width: 200px;
+	max-height:200px;
+	background-color: #ffff;
+	padding: 8px;
+	border-radius: 15px;
+	display: block;
+	margin: auto;
+}
+
+.box-title{
+	color: #ffffff;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom:45px;
+	font-size: 14px;
+}
+
+.main-container{
+	min-height:65vh;
+}
+
+
+
+.footer-logo{
+	max-width: 200px;
+	margin:auto;
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.dp-center{
+	display: block;
+	margin: auto;
+}
+
+
+
+
+.torna-btn,.torna-btn:hover{
+	font-size: 22px;
+	border-radius: 15px;
+	padding: 12px;
+	background-color: #00cec9;
+	border: 0px;
+	margin: 50px 0px 25px 0px;
+}
+
+.step-box{
+	background-color: #ffff;
+	padding:13px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.step-box-title{
+	font-size: 25px;
+	color: #e048bf;
+	text-align: center;
+}
+
+.step-box p{
+	color: #781bbd;
+	font-weight:600;
+	font-size: 18px;
+}
+
+.btn-minfo{
+	background-color:#00d2d3;
+	color: #ffff;
+	border-radius: 10px;
+	padding: 6px;	
+	font-weight: bold;
+	font-size: 18px;
+	border: 3px solid #01a3a4; 	
+}
+
+
+
+.catalog-box{
+	background-color: #ffff;
+	padding: 8px;
+	border-radius: 15px;
+	display: block;
+	margin: auto;
+	margin-bottom: 15px;
+	max-width:600px;
+}
+
+.catalog-box img{
+	max-height: 105px;
+	display: block;
+	margin: auto;
+	padding: 5px;
+}
+
+.catalog-title{
+	text-align: left;
+	padding-top:15px;
+	color:black;
+	font-size: 20px;
+	font-weight:bold;
+	color:#2d3436;
+
+}
+
+
+.decoracion-btns{
+	padding-top: 30px;
+	padding-bottom:20px;
+	padding-right:10px;
+	padding-left:10px;
+	background-color: #fff;
+	margin-top: -2px;
+}
+
+.decoracion-btns .btn, .decoracion-btns .btn:active{
+	display: block;
+	margin: auto;
+	background-color: #e84393;
+	border-color: #e84393;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#caruselDecoracion{
+	border: 3px solid #fff;
+	border-radius: 5px;
+	max-width: 650px;
+    display: block;
+    margin: auto;
+}
+
+
+.catalog-img{
+ 	background-color: #ffff;
+ 	padding: 2px;
+}
+
+.p-catalog .catalog-img{
+	border-radius: 6px;
+ 	min-height:220px;
+ 	}
+
+.p-catalog .catalog-img img{
+	display: block;
+	margin: auto;
+	max-height: 125px;
+	
+}
+
+.catalog-col{
+	padding:2px 1px 2px 1px !important;
+}
+
+.modal-body,.modal-header{
+	padding:0px;
+}
+
+.close span{
+	margin: 5px;
+	font-size: 68px;
+	color: #3400ff;
+	opacity: .9;
+}
+
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+	padding:18px;
+	
+
+}
+
+.modal{
+	background: rgba(0, 0, 0, 0.85);
+}
+
+.num-title{
+	margin-left:15px;
+	padding-top: 20px;
+	font-size: 22px;
+	color: #9300ff;
+	font-weight: 500;
+}
+
+#modal-price{
+	margin-left:0px;
+	padding-top: 17px;
+	font-size: 25px;
+	color:#0142ff;
+	font-weight: 600;
+}
+
+#img-num{
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.products-txt{
+	text-align: center;
+	color: #4a4a4a;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom:6px;
+}
+
+.p-catalog{
+	max-width: 700px;
+	display: block;
+	margin: auto;
+}
+
+
+.catalog-item-box img{
+	max-height:150px;
+	display: block;
+	margin: auto;
+}
+
+.catalog-item-box{
+	border-radius: 5px;
+	border: 1px solid #d2d7da;
+	margin: 0px;
+	min-height: 186px;
+
+}
+
+.catalog-col span{
+	color:#ff0098;
+	font-size:18px;
+}
+
+.remove-padding{
+	padding: 0px !important;
+}
+
+
+.add-padding{
+	padding: 0px 10px 0px 10px;
+}
+
+
+
+@media (min-width: 576px){
+	.modal-dialog {
+	    max-width:660px; 
+	}
+}
+
+
+
+
+
+
+
+
